@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navcontainer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navleft{
+    flex: 4;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+    
+}
+.navcenter{
+    flex: 4;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+.navright{
+    flex: 4;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+.banner{
+    background-image: url(photo1.jpg);
+    height: 100vh;
+    width: 100%;
+   
+}
+ 
+.bannerimg{
+    height:500px ;
+    object-fit: cover;
+}
+
+.bannerleft{
+    flex: 6;
+    padding-top:10%;
+    padding-left: 30px;
+}
+.bannerhead2{
+    font-size: 80px;
+    font-weight: 300;
+    
+    
+}
+.bannerpara{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+.bannerbutton{
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+.bannerhead{
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.bannerbody{
+    height: 80vh;
+    width: 100%;
+    background-image: url(photo1.jpg);
+
+}
+.aboutword{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    font-weight: 200;
+}
+.aboutleft{
+    flex: 6;
+    padding-top: 10%;
+    padding-left: 30px;
+
+}
+.aboutright{
+    flex: 6;
+}
+.aboutprofile{
+    display: flex;
+    margin-top: 30px;
+}
+.profileimg{
+    height: 700px;
+    width: 95%;
+    object-fit: cover;
+}
+.aboutmainword{
+    font-size: 80px;
+    font-weight: 300;
+}
+.aboutsubword{
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.aboutpara{
+
+    padding-top: 30px;
+
+}
+.contactprofile{
+    display: flex;
+    padding-top: 70px;
+}
+.contactleft{
+    flex: 6;
+
+}
+.contactright{
+    flex: 6;
+}
+.contactmessage{
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contactsub{
+    padding: 40px;
+}
+.contactpara{
+    padding-left: 30px;
+}
